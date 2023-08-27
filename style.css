@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  font-family: "roboto", sans-serif;
+}
+.button {
+  padding: 20px;
+  width: 55px;
+  margin: 0 3px;
+  border: 2px solid black;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.row {
+  margin: 9px 0;
+  text-align: center;
+}
+.row input {
+  width: 175px;
+  font: 20px;
+  margin: 0;
+  padding: 6px 36px;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+
+.container {
+  width: 100%;
+  height: 93vh;
+  background: #e3f9ff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-repeat: no-repeat;
+  background-image: url(https://plus.unsplash.com/premium_photo-1680721445122-a61ab431cf8d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fGNhbGN1bGF0b3J8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=1000&q=60);
+}
+.welcome {
+  height: 9vh;
+  background-color: #33ffd8;
+  background-image: url(https://plus.unsplash.com/premium_photo-1682799116921-de130f76c1d0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8d2FsbHBhcGFlcnxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=1000&q=60);
+}
+.calculator {
+  background: black;
+  background-image: url(https://images.unsplash.com/photo-1528722828814-77b9b83aafb2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fHN0YXJzfGVufDB8fDB8fHww&auto=format&fit=crop&w=1000&q=60);
+  padding: 20px;
+  border-radius: 10px;
+}
+.flex {
+  display: flex;
+}
+.flex-col {
+  flex-direction: column;
+}
+.items-center {
+  align-items: center;
+}
